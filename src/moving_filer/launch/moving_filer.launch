@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="moving_filer" type="moving_filer" name ="moving_filer" >
+        <param name="uwb_in_topic" type="string" value="nlink_linktrack_nodeframe2"/>
+        <param name="uwb_out_topic" type="string" value="nlink2"/>
+    </node>
+</launch>

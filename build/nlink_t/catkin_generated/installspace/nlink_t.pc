@@ -1,0 +1,8 @@
+prefix=/home/robot/uwb_ws/install
+
+Name: nlink_t
+Description: Description of nlink_t
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/robot/uwb_ws/devel
+
+Name: uwb_msgs
+Description: Description of uwb_msgs
+Version: 0.0.0
+Cflags: -I/home/robot/uwb_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_generation roscpp rospy sensor_msgs std_msgs tf message_runtime nlink_parser

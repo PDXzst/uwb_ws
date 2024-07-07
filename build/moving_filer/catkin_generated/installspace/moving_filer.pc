@@ -1,0 +1,8 @@
+prefix=/home/robot/uwb_ws/install
+
+Name: moving_filer
+Description: Description of moving_filer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

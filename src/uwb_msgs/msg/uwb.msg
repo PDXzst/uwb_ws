@@ -1,0 +1,10 @@
+Header header
+nlink_parser/LinktrackNodeframe2 uwb
+uint8 role
+uint8 id
+float32 dis
+float32 fp_rssi
+float32 rx_rssi
+float32 dis_avg
+float32 fp_avg
+float32 rx_avg

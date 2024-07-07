@@ -1,0 +1,11 @@
+<launch>
+    <arg name="range_topic_"  default="/uwb_range"/>
+    <arg name="uwb_msg_topic_"  default="/uwb_msg===="/>
+    
+    <!-- Launch your node with the specified parameters and namespace -->
+    <node pkg="uwb_msgs" type="range_pub" name="imu2range" output="screen">
+        <param name="range_topic" type="string" value="$(arg range_topic_)"/>
+        <param name="uwb_msg_topic" type="string" value="$(arg uwb_msg_topic_)"/>
+    </node>
+
+</launch>

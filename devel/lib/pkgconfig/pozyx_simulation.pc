@@ -1,0 +1,8 @@
+prefix=/home/robot/uwb_ws/devel
+
+Name: pozyx_simulation
+Description: Description of pozyx_simulation
+Version: 0.0.1
+Cflags: -I/home/robot/uwb_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
